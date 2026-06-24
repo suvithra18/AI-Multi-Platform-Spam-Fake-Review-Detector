@@ -37,73 +37,6 @@ The system analyzes various behavioral and textual features to classify content 
 
 ---
 
-# 📂 Project Structure
-
-```bash
-AI-Spam-Detector/
-│
-├── app.py
-├── predict.py
-├── database.py
-├── train_model.py
-├── spam_dataset.csv
-├── model.pkl
-├── requirements.txt
-└── README.md
-```
-
----
-
-# ⚙ Installation Steps
-
-## 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/AI-Spam-Detector.git
-```
-
-## 2️⃣ Open Project Folder
-
-```bash
-cd AI-Spam-Detector
-```
-
-## 3️⃣ Install Required Packages
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶ Running the Application
-
-```bash
-streamlit run app.py
-```
-
-After running the command, the application will open in your browser.
-
----
-
-# 📊 Dataset Features
-
-| Feature          | Description                  |
-| ---------------- | ---------------------------- |
-| platform         | Social platform type         |
-| text             | User message/review          |
-| link_count       | Number of links              |
-| emoji_count      | Number of emojis             |
-| hashtag_count    | Number of hashtags           |
-| follower_ratio   | Followers vs following ratio |
-| duplicate_score  | Similarity score             |
-| forward_count    | Message forward count        |
-| urgent_words     | Scam-related keywords        |
-| rating           | User review rating           |
-| account_age_days | Account age                  |
-| label            | Spam or Genuine              |
-
----
 
 # 🧪 Machine Learning Workflow
 
@@ -145,15 +78,17 @@ using SQLite database for future analysis.
 
 # 📸 Screenshots
 
-## Home Page
+ <p align="center">
+  <img src="screenshot/ai_fake.png" width="45%">
+  <img src="screenshot/multi_platform.png" width="45%">
+</p>
 
-Add screenshot here
+<p align="center">
+  <img src="screenshot/platform_distribution.png" width="45%">
+  <img src="screenshot/graph.png" width="45%">
+</p>
 
-## Prediction Result
-
-Add screenshot here
 
 ---
 
-# 👩‍💻 Author
 
